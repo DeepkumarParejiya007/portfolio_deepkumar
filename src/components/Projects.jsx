@@ -23,7 +23,7 @@ function Projects() {
       ],
       technologies: ["Next.js", "TailwindCSS", "AI APIs", "Node.js"],
       gradient: "from-purple-500 to-pink-500",
-      link: "https://jugaadai.example.com" // Replace with actual link
+      link: "https://jugaadai.vercel.app/" // Replace with actual link
     }
   ];
 
