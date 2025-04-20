@@ -11,7 +11,8 @@ function Projects() {
         "A platform where professional chefs can get appreciation for new recipe inventions and generate fan-base."
       ],
       technologies: ["React", "Node.js", "MongoDB", "Express"],
-      gradient: "from-blue-500 to-cyan-500"
+      gradient: "from-blue-500 to-cyan-500",
+      link: "https://ingredientiq-1-nzs2.onrender.com/" // Replace with actual link
     },
     {
       title: "JugaadAI",
@@ -21,7 +22,8 @@ function Projects() {
         "Posting latest news related to Artificial Intelligence and new development in this emerging field."
       ],
       technologies: ["Next.js", "TailwindCSS", "AI APIs", "Node.js"],
-      gradient: "from-purple-500 to-pink-500"
+      gradient: "from-purple-500 to-pink-500",
+      link: "https://jugaadai.example.com" // Replace with actual link
     }
   ];
 
@@ -33,7 +35,13 @@ function Projects() {
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="gradient-border p-6 bg-black/50 card-hover">
+            <a
+              key={index}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block gradient-border p-6 bg-black/50 card-hover transition-transform duration-200 hover:scale-[1.02] rounded-xl"
+            >
               <h3 className={`text-xl font-semibold mb-2 bg-gradient-to-r ${project.gradient} bg-clip-text text-transparent`}>
                 {project.title}
               </h3>
@@ -50,7 +58,7 @@ function Projects() {
                   </span>
                 ))}
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
