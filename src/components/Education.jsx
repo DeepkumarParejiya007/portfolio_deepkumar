@@ -14,7 +14,7 @@ function Education() {
             <h3 className="text-xl font-semibold text-transparent bg-gradient-to-r from-blue-400 to-violet-500 bg-clip-text">
               Diploma in Software Engineering Technician
             </h3>
-            <p className="text-gray-400 mb-4">Centennial College, Toronto, ON | Jan 2024 – Present</p>
+            <p className="text-gray-400 mb-4">Centennial College, Toronto, ON | Jan 2024 – Apr 2025</p>
             
             <h4 className="font-medium text-gray-300 mb-2">Relevant Courses:</h4>
             <ul className="list-disc list-inside mb-4 text-gray-400 space-y-1">

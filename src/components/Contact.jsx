@@ -17,7 +17,7 @@ function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <a href="mailto:pateldeep62157@gmail.com" className="ml-4 text-gray-300 group-hover:text-white transition-colors duration-200">
-                  pateldeep62157@gmail.com
+                  deepkumarparejiya@gmail.com
                 </a>
               </div>
               
@@ -36,7 +36,7 @@ function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="ml-4 text-gray-300">
-                  Scarborough, ON | M1G 2M5
+                  Toronto, ON | M1G 2M5
                 </span>
               </div>
             </div>
